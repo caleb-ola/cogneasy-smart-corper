@@ -11,9 +11,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
       {history.action === "PUSH" ? (
         <Component />
       ) : (
-        <Redirect
-          to={{ pathname: "/admiral/admin", state: { from: location } }}
-        />
+        <Redirect to={{ pathname: "/", state: { from: location } }} />
       )}
     </Route>
   );

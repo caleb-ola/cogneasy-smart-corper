@@ -1,6 +1,7 @@
 footer {
-  background: #1a1a54;
-  color: #fff;
+  background: #fefbeb;
+
+  color: #1a1a54;
   padding: 30px;
   text-align: center;
 }
@@ -8,16 +9,17 @@ footer {
   margin: 5px;
 }
 .sides {
-  margin: 5px auto;
+  margin: 15px auto;
 }
 .footer-btn {
   background: #ff006b;
   font-family: roboto;
   font-size: small;
   color: #fff;
-  border-radius: 50px;
-  padding: 7px 14px;
-  margin: 10px;
+  /* border-radius: 50px; */
+  /* padding: 7px 14px;
+  margin: 10px;  */
+  margin-top: 10px;
 }
 .footer-btn:hover {
   background: #e60060;
@@ -29,6 +31,8 @@ footer {
 .subscribe-input {
   padding: 4px 8px;
   margin: 0 5 5 5;
+  background-color: #fff;
+  border: 1px solid #1a1a54;
 }
 .subscribe-input:focus {
   outline-width: 0;
@@ -42,34 +46,91 @@ i {
 .icons {
   margin: 0 5 20px 5;
 }
-::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: #b0b0b0;
-  font-size: 10pt;
+
+i {
+  width: 15%;
+  height: auto;
+  font-size: 1.5rem;
 }
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #b0b0b0;
-  font-size: 10pt;
+a i {
+  color: #1a1a54;
 }
-:-ms-input-placeholder {
-  /* IE 10+ */
-  color: #b0b0b0;
-  font-size: 10pt;
+a i:hover {
+  color: #ff006b !important;
 }
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: #b0b0b0;
-  font-size: 10pt;
+.subscribe-input {
+  color: #1a1a54;
 }
 
 @media only screen and (min-width: 425px) {
   footer {
     text-align: center;
   }
+  .footer-btn {
+    background: #ff006b;
+    font-family: roboto;
+    font-size: small;
+    color: #fff;
+    border-radius: 0;
+    padding: 12px 24px;
+    margin: 10px;
+  }
+  i {
+    width: 15%;
+    height: auto;
+  }
+  .icons {
+    margin-top: 20px;
+  }
 }
 @media only screen and (min-width: 769px) {
   footer {
     text-align: left;
+  }
+  input {
+    margin-top: 20px;
+  }
+  .footer-text {
+    margin: 20px 0 0 0;
+  }
+  .footer-btn {
+    background: #ff006b;
+    font-family: roboto;
+    font-size: medium;
+    color: #fff;
+    /* border-radius: 50px; */
+    padding: 15px 30px;
+    /* margin-bottom: 20px; */
+  }
+  i {
+    width: 15%;
+    height: auto;
+  }
+  .rower {
+    width: 100%;
+    margin: auto;
+  }
+  .icons {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .footer-btn {
+    background: #ff006b;
+    font-family: roboto;
+    font-size: xx-large;
+    color: #fff;
+    /* border-radius: 50px; */
+    margin-top: 10px;
+    padding: 30px 60px;
+  }
+  i {
+    width: 15%;
+    height: auto;
+    font-size: 3rem;
+  }
+  .footer-text {
+    margin: 40px 0 30px 0;
   }
 }

@@ -114,9 +114,9 @@ const Focus = () => {
 
   return (
     <div className="focus">
-      <nav className="navbar navbar-expand navbar-light new-Nav">
+      <nav className="navbar navbar-expand  navbar-light new-Nav">
         <div className="mx-auto" id="">
-          <ul className="navbar-nav mx-auto navbar-dark">
+          <ul className="navbar-nav  nav-fill w-100  mx-auto navbar-dark">
             <li className={`nav-item new-item ${day.dayOne}`}>
               <button className="nav-link naval " onClick={showDayOne}>
                 <div className="power">

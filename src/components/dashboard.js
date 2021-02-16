@@ -6,13 +6,14 @@ const Dashboard = (props) => {
   const [allUsers, setAllUsers] = useState([]);
 
   const fetchData = () => {
-    db.collection("Test")
+    db.collection("Corpers")
       .get()
       .then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
           // console.log(doc.id, " => ", doc.data());
           allUsers.push(doc.data());
           setAllUsers([...allUsers]);
+          console.log(allUsers);
         });
       });
   };
@@ -23,28 +24,21 @@ const Dashboard = (props) => {
 
   const gatherdem = allUsers.map((item, index) => {
     return (
-      <table style={{ width: "100%" }}>
-        <tr>
-          <th>S/N</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-        </tr>
-        <tr>
-          <td>{index + 1}</td>
-          <td>{item.fname}</td>
-          <td>{item.lname}</td>
-          <td>{item.email}</td>
-        </tr>
-        {/* {allUsers && gatherdem} */}
-      </table>
+      <tr>
+        <td>{index + 1}</td>
+        <td>{item.fname}</td>
+        <td>{item.lname}</td>
+        <td>{item.email}</td>
+        <td>{item.num}</td>
+        <td>{item.exp}</td>
+      </tr>
     );
   });
 
   const exportFile = () => {
-    let users = [["FirstName", "LastName", "Email"]];
+    let users = [["FirstName", "LastName", "Email", "Number", "Expectation"]];
     allUsers.forEach((user) => {
-      let userArray = [user.fname, user.lname, user.email];
+      let userArray = [user.fname, user.lname, user.email, user.num, user.exp];
       users.push(userArray);
       setAllUsers((prev) => {
         return [...prev];
@@ -59,16 +53,27 @@ const Dashboard = (props) => {
     <div>
       <div className="admin-header">
         <h1>WELCOME ADMIN</h1>
+        <div>
+          <button className="btn btn-primary" onClick={gatherdem}>
+            SHOW REGISTERED PARTICIPANTS
+          </button>
+          <button className="btn btn-success" onClick={exportFile}>
+            EXPORT TO EXCEL
+          </button>
+        </div>
       </div>
-      <div>
-        <button className="btn btn-primary" onClick={gatherdem}>
-          SHOW REGISTERED PARTICIPANTS
-        </button>
-        <button className="btn btn-success" onClick={exportFile}>
-          EXPORT TO EXCEL
-        </button>
-      </div>
-      {gatherdem}
+
+      <table style={{ width: "100%" }}>
+        <tr>
+          <th>S/N</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Number</th>
+          <th>Expectation</th>
+        </tr>
+        {allUsers && gatherdem}
+      </table>
     </div>
   );
 };

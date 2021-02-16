@@ -46,8 +46,9 @@ const Admin = () => {
   };
 
   return (
-    <div>
+    <div className="focus miral">
       {/* {console.log(user)} */}
+      <h1>Admin session sign in</h1>
       <form onSubmit={handleSubmit}>
         <input type="email" value={client.email} onChange={handleEmail} />
         <input
@@ -55,7 +56,9 @@ const Admin = () => {
           value={client.password}
           onChange={handlePassword}
         />
-        <button type="submit">LOGIN</button>
+        <button type="submit" className="btn btn-primary mx-auto">
+          LOGIN
+        </button>
       </form>
     </div>
   );

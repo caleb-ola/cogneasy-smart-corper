@@ -1,3 +1,6 @@
+.schedule {
+  padding-bottom: 20px;
+}
 .focus {
   background: #fff;
   width: 90%;
@@ -5,7 +8,7 @@
   height: 500px;
   max-height: 400px;
   box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
-  margin: 10px auto;
+  margin: 30px auto;
 }
 nav {
   text-align: left;
@@ -108,7 +111,7 @@ h5 {
   .focus {
     background: #fff;
     width: 55%;
-    max-width: 40%;
+    max-width: 50%;
     height: 400px;
     max-height: 400px;
     box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
@@ -148,5 +151,77 @@ h5 {
     position: absolute;
     left: 0;
     top: 10;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .schedule {
+    padding-bottom: 40px;
+  }
+  .focus {
+    background: #fff;
+    width: 45%;
+    max-width: 45%;
+    height: 600px;
+    max-height: 600px;
+    box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
+    margin: 10px auto;
+  }
+  nav {
+    margin: 50px 0 0 0;
+  }
+  button {
+    border: 0;
+    background: none;
+    margin: 20px 5px 35px 20px;
+    font-size: x-large;
+    text-align: left;
+  }
+  .details {
+    font-size: x-large;
+    padding: 5px 25px;
+  }
+  .schedule {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .vector-one {
+    display: block;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -2;
+  }
+  .vector-two {
+    display: block;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 10;
+  }
+  h5 {
+    font-size: medium;
+  }
+  /* p {
+    font-size: 0.7rem;
+  } */
+  .time {
+    color: #ff0069;
+    font-size: 1.2rem;
+  }
+  .focus-speaker {
+    color: #1a1a54;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .focus-topic {
+    color: #1a1a54;
+    font-size: 2rem;
+  }
+  .focus-text {
+    color: #525252;
+    font-size: 1.2rem;
   }
 }

@@ -11,7 +11,7 @@ const Schedule = () => {
       <Bounce right duration={2000}>
         <img
           className="vector-one"
-          src="/images/vector (2).png"
+          src="/images/sidelogo1.png"
           alt="cogneasy-logo"
         />
       </Bounce>
@@ -26,7 +26,7 @@ const Schedule = () => {
       <Bounce left duration={3000}>
         <img
           className="vector-two"
-          src="/images/vector (1).png"
+          src="/images/sidelogo2.png"
           alt="cogneasy-logo"
         />
       </Bounce>
