@@ -19,10 +19,11 @@ const Schedule = () => {
       </div>
 
       <img className="vector-two" src="/images/sideb.png" alt="cogneasy-logo" />
-
       <div className="schedule-body">
         <Focus />
       </div>
+      <img className="vector-one" src="/images/sidea.png" alt="cogneasy-logo" />
+      <img className="vector-two" src="/images/sidea.png" alt="cogneasy-logo" />
     </div>
   );
 };
