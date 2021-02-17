@@ -1,5 +1,6 @@
 .schedule {
   padding-bottom: 20px;
+  position: relative;
 }
 .focus {
   background: #fff;
@@ -76,6 +77,12 @@ h5 {
 .vector-two {
   display: none;
 }
+.vector-three {
+  display: none;
+}
+.vector-four {
+  display: none;
+}
 @media only screen and (min-width: 426px) {
   .focus {
     background: #fff;
@@ -87,7 +94,7 @@ h5 {
     margin: 10px auto;
   }
   nav {
-    margin: 50px 0 0 0;
+    margin: 0 0 0 0;
   }
   button {
     border: 0;
@@ -106,6 +113,12 @@ h5 {
   .vector-two {
     display: none;
   }
+  .vector-three {
+    display: none;
+  }
+  .vector-four {
+    display: none;
+  }
 }
 @media only screen and (min-width: 769px) {
   .focus {
@@ -114,11 +127,11 @@ h5 {
     max-width: 50%;
     height: 400px;
     max-height: 400px;
-    box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(204, 204, 204, 0.4);
     margin: 10px auto;
   }
   nav {
-    margin: 50px 0 0 0;
+    margin: 0 0 0 0;
   }
   button {
     border: 0;
@@ -132,6 +145,11 @@ h5 {
     padding: 5px 25px;
   }
   .schedule {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .schedule-body {
     width: 80%;
     max-width: 80%;
     margin: 0 auto;
@@ -140,15 +158,35 @@ h5 {
     display: block;
     width: 200px;
     height: auto;
-    /* position: absolute; */
+    position: absolute;
+    margin-top: 30px;
     right: 0;
-    top: -2;
+    top: 1;
   }
   .vector-two {
     display: block;
     width: 200px;
     height: auto;
-    /* position: absolute; */
+    position: absolute;
+    left: 0;
+    top: 10;
+  }
+  .vector-three {
+    display: block;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    margin-top: -200px;
+    right: 0;
+    top: 1;
+  }
+  .vector-four {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-top: -160px;
+    /* margin-left: -30px; */
+    position: absolute;
     left: 0;
     top: 10;
   }
@@ -161,10 +199,11 @@ h5 {
     background: #fff;
     width: 45%;
     max-width: 45%;
-    height: 600px;
-    max-height: 600px;
-    box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
+    height: 550px;
+    max-height: 550px;
+    box-shadow: 0 8px 12px 0 rgba(206, 206, 206, 0.4);
     margin: 10px auto;
+    margin-bottom: 90px;
   }
   nav {
     margin: 50px 0 0 0;
@@ -185,18 +224,49 @@ h5 {
     max-width: 80%;
     margin: 0 auto;
   }
+  .schedule {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .schedule-body {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
   .vector-one {
     display: block;
     width: 300px;
     height: auto;
     position: absolute;
+    margin-top: 30px;
     right: 0;
-    top: -2;
+    top: 1;
   }
   .vector-two {
     display: block;
     width: 300px;
     height: auto;
+    position: absolute;
+    margin-top: -100px;
+    left: 0;
+    top: 10;
+  }
+  .vector-three {
+    display: block;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    margin-top: -230px;
+    right: 0;
+    top: 1;
+  }
+  .vector-four {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-top: -200px;
+    /* margin-left: -30px; */
     position: absolute;
     left: 0;
     top: 10;

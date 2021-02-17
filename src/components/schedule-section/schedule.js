@@ -8,7 +8,13 @@ import Focus from "../focus";
 const Schedule = () => {
   return (
     <div className="schedule">
-      <img className="vector-one" src="/images/sidea.png" alt="cogneasy-logo" />
+      <Bounce right duration={3000}>
+        <img
+          className="vector-one"
+          src="/images/sidea.png"
+          alt="cogneasy-logo"
+        />
+      </Bounce>
 
       <div className="register-header">
         <h1 className="speakers-header">
@@ -17,13 +23,30 @@ const Schedule = () => {
         </h1>
         <p className="speakers-text">Schedule and Agenda for Smart Corpers .</p>
       </div>
-
-      <img className="vector-two" src="/images/sideb.png" alt="cogneasy-logo" />
+      <Bounce left duration={2500}>
+        <img
+          className="vector-two"
+          src="/images/sideb.png"
+          alt="cogneasy-logo"
+        />
+      </Bounce>
       <div className="schedule-body">
         <Focus />
       </div>
-      <img className="vector-one" src="/images/sidea.png" alt="cogneasy-logo" />
-      <img className="vector-two" src="/images/sidea.png" alt="cogneasy-logo" />
+      <Bounce right duration={2500}>
+        <img
+          className="vector-three"
+          src="/images/sidea.png"
+          alt="cogneasy-logo"
+        />
+      </Bounce>
+      <Bounce left duration={3000}>
+        <img
+          className="vector-four"
+          src="/images/sideb.png"
+          alt="cogneasy-logo"
+        />
+      </Bounce>
     </div>
   );
 };
