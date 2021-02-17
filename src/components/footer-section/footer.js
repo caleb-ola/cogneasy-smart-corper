@@ -57,7 +57,7 @@ const Footer = () => {
   };
   return (
     <footer>
-      <div class="container">
+      <div>
         <div className="row">
           <div className="col-lg-5 col-md-6 col-sm-12 sides">
             <p className="footer-text">Follow us on Social Media</p>

@@ -47,7 +47,7 @@ button {
 }
 .details {
   font-size: small;
-  padding: 5px;
+  padding: 5px 0px;
 }
 h5 {
   font-size: medium;
@@ -190,10 +190,19 @@ h5 {
     left: 0;
     top: 10;
   }
+  .details {
+    font-size: small;
+    padding: 10px 5px;
+  }
 }
 @media only screen and (min-width: 1920px) {
   .schedule {
     padding-bottom: 40px;
+  }
+  .details {
+    font-size: small;
+    padding: 5px 0px;
+    margin: 10px auto;
   }
   .focus {
     background: #fff;
@@ -279,19 +288,19 @@ h5 {
   } */
   .time {
     color: #ff0069;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .focus-speaker {
     color: #1a1a54;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
   }
   .focus-topic {
     color: #1a1a54;
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .focus-text {
     color: #525252;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }

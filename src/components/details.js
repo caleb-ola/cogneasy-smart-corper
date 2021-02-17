@@ -1,4 +1,5 @@
 import React from "react";
+import "./schedule-section/schedule.css";
 
 const Details = (props) => {
   return (
