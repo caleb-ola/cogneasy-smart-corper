@@ -8,11 +8,7 @@ import Focus from "../focus";
 const Schedule = () => {
   return (
     <div className="schedule">
-      <img
-        className="vector-one"
-        src="/images/sidelogoa.png"
-        alt="cogneasy-logo"
-      />
+      <img className="vector-one" src="/images/sidea.png" alt="cogneasy-logo" />
 
       <div className="register-header">
         <h1 className="speakers-header">
@@ -22,11 +18,7 @@ const Schedule = () => {
         <p className="speakers-text">Schedule and Agenda for Smart Corpers .</p>
       </div>
 
-      <img
-        className="vector-two"
-        src="/images/sidelogob.png"
-        alt="cogneasy-logo"
-      />
+      <img className="vector-two" src="/images/sideb.png" alt="cogneasy-logo" />
 
       <div className="schedule-body">
         <Focus />
