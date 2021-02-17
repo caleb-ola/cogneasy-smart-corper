@@ -10,13 +10,18 @@
   margin: 0 auto;
 }
 .speakers-header {
-  margin-top: 45px;
+  width: 80%;
+  max-width: 80%;
+  margin: 45px auto 25px;
   color: #1a1a54;
   font-size: 1.5rem;
 }
 .speakers-text {
   color: #060606;
   margin-bottom: 35px;
+  width: 55%;
+  max-width: 55%;
+  margin: 0 auto 35px;
 }
 .all-speakers {
   width: 90%;
@@ -52,22 +57,33 @@
 }
 @media only screen and (min-width: 426px) {
   .card-text {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     font-weight: 700;
     color: #ff006b;
   }
 }
 @media only screen and (min-width: 768px) {
   .card-text {
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     font-weight: 700;
     color: #ff006b;
+  }
+  .card {
+    width: 85%;
+    max-width: 85%;
+    height: 300px;
+    max-height: 280px;
+    margin: 35px auto;
+    border: 0px;
+    text-align: left;
   }
 }
 @media only screen and (min-width: 1920px) {
   .card {
     width: 85%;
     max-width: 85%;
+    height: 350px;
+    max-height: 350px;
     margin: 35px auto;
     border: 0px;
     text-align: left;

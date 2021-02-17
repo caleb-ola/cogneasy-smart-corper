@@ -116,7 +116,7 @@ const Register = () => {
           <div className="speakers">
             <h1 className="register-header">Register Now</h1>
             <p className="register-text">
-              Fill in your details to reserve a pace for the virtual event.
+              Fill in your details to reserve a space for the virtual event.
             </p>
           </div>
         </div>
@@ -170,8 +170,10 @@ const Register = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 input-field text-area">
-              <label for="exp">What are your expectations?</label>
+            <div className="col-lg-12 input-field text-area">
+              <label className="exp-label" for="exp">
+                What are your expectations?
+              </label>
               <textarea
                 id="exp"
                 placeholder="type what you expect from Smart Corpers"

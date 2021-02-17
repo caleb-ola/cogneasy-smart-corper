@@ -67,7 +67,7 @@ header {
   padding: 8px 16px;
 }
 .header-btn:hover {
-  background: #e60060;
+  background: #af0049;
   font-family: roboto;
   color: #fff;
   /* border-radius: 50px; */
@@ -125,7 +125,7 @@ header {
     padding: 11px 22px;
   }
   .header-btn:hover {
-    background: #e60060;
+    background: #af0049;
     font-family: roboto;
     color: #fff;
     /* border-radius: 50px; */
@@ -167,7 +167,7 @@ header {
     padding: 13px 26px;
   }
   .header-btn:hover {
-    background: #e60060;
+    background: #af0049;
     font-family: roboto;
     color: #fff;
     /* border-radius: 50px; */
@@ -218,14 +218,14 @@ header {
   .header-btn {
     background: #ff006b;
     font-family: roboto;
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     /* border-radius: 50px; */
     margin-top: 30px;
     padding: 14px 28px;
   }
   .header-btn:hover {
-    background: #e60060;
+    background: #af0049;
     font-family: roboto;
     color: #fff;
     /* border-radius: 50px; */

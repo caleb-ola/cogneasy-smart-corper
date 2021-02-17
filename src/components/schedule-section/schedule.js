@@ -18,8 +18,7 @@ const Schedule = () => {
 
       <div className="register-header">
         <h1 className="speakers-header">
-          The Main Focus is to equip
-          <br /> Every Corper with the 10 Must Have Skills
+          The Main Focus is to equip every Corper with the 10 Must Have Skills
         </h1>
         <p className="speakers-text">Schedule and Agenda for Smart Corpers .</p>
       </div>

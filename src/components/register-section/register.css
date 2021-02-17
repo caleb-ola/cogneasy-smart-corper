@@ -3,6 +3,7 @@
   color: #fff;
   padding-bottom: 20px;
 }
+
 .register-details {
   width: 90%;
   max-width: 90%;
@@ -75,22 +76,34 @@ textarea::-webkit-input-placeholder {
     padding: 10px;
     color: #fff;
   }
+  textarea {
+    width: 95%;
+    height: 250px;
+    margin-top: 20px;
+  }
+  .register-text {
+    margin: 10px auto;
+  }
 }
 @media only screen and (min-width: 1920px) {
   input,
   textarea {
-    width: 90%;
+    width: 100%;
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 10px;
     font-size: 1.3rem;
     color: #fff;
   }
+  textarea {
+    width: 100%;
+  }
   input {
     height: 70px;
   }
   textarea {
     height: 250px;
+    margin-top: 20px;
   }
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
@@ -100,5 +113,9 @@ textarea::-webkit-input-placeholder {
     color: #fff;
     margin: 2px 0;
     font-size: 1.5rem;
+  }
+
+  .register-text {
+    margin: 15px auto 25px;
   }
 }
