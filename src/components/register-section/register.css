@@ -13,24 +13,24 @@
 }
 .register-header {
   text-align: center;
-  padding: 25px 0 5px 0;
+  padding: 15px 0 5px 0;
   color: #fff;
 }
 form {
-  width: 70%;
-  max-width: 70%;
+  width: 75%;
+  max-width: 75%;
   margin: 0 auto;
 }
 p {
   margin-bottom: 0;
 }
 .input-field {
-  margin: 20px 0;
+  margin: 10px 0 10px;
 }
 label {
   color: #fff;
-  margin: 3px 0;
-  font-size: 0.9rem;
+  margin: 1px 0;
+  font-size: 0.8rem;
 }
 input,
 textarea {
@@ -76,13 +76,23 @@ textarea::-webkit-input-placeholder {
     padding: 10px;
     color: #fff;
   }
+  input {
+    height: 45px;
+  }
   textarea {
     width: 95%;
-    height: 250px;
+    height: 120px;
     margin-top: 20px;
   }
   .register-text {
-    margin: 10px auto;
+    margin: 0 auto;
+  }
+  .register-btn {
+    margin-top: 5px;
+  }
+  .submit-button {
+    text-align: right;
+    padding: 0 5% 0 0;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -92,31 +102,31 @@ textarea::-webkit-input-placeholder {
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 10px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #fff;
-    margin: 10px auto 25px;
+    margin: 10px auto 10px;
   }
   textarea {
     width: 100%;
   }
   input {
-    height: 70px;
+    height: 55px;
   }
   textarea {
-    height: 250px;
+    height: 120px;
     margin-top: 20px;
   }
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   label {
     color: #fff;
     margin: 2px 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .register-text {
-    margin: 15px auto 25px;
+    margin: 10px auto 15px;
   }
 }
