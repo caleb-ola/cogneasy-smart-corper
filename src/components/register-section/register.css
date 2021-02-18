@@ -13,7 +13,9 @@
 }
 .register-header {
   text-align: center;
-  padding: 15px 0 5px 0;
+  padding: 15px 0 10px 0;
+  margin-top: 25px;
+  font-size: 1.5rem;
   color: #fff;
 }
 form {
@@ -66,7 +68,9 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   font-size: 0.7rem;
 }
-
+/* .register-header {
+  font-size: 2rem;
+} */
 @media only screen and (min-width: 426px) {
   input,
   textarea {
@@ -93,6 +97,9 @@ textarea::-webkit-input-placeholder {
   .submit-button {
     text-align: right;
     padding: 0 5% 0 0;
+  }
+  .register-header {
+    font-size: 1.8rem;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -125,8 +132,13 @@ textarea::-webkit-input-placeholder {
     margin: 2px 0;
     font-size: 1.3rem;
   }
-
+  .register-header {
+    font-size: 2.1rem;
+  }
   .register-text {
     margin: 10px auto 15px;
+  }
+  .submit-button {
+    padding: 0;
   }
 }

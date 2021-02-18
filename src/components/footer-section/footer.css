@@ -66,6 +66,7 @@ a i:hover {
   footer {
     text-align: center;
   }
+
   .footer-btn {
     background: #ff006b;
     font-family: roboto;
@@ -109,7 +110,8 @@ a i:hover {
     font-size: medium;
     color: #fff;
     /* border-radius: 50px; */
-    margin-top: 0;
+    margin: 0 0 0 10px;
+    margin-top: 5px;
     padding: 13px 26px;
   }
   i {
@@ -135,7 +137,7 @@ a i:hover {
     color: #1a1a54;
     width: 100%;
     font-size: 1.4rem;
-    margin-top: 0;
+    margin-top: 10px;
   }
   .footer-texta {
     margin: 10px 0 60px 0;
@@ -149,7 +151,7 @@ a i:hover {
     font-size: large;
     color: #fff;
     /* border-radius: 50px; */
-    margin: -10px 0 0 10px;
+    margin: 0 0 0 0;
     padding: 20px 40px;
   }
   /* .sides {
@@ -161,6 +163,9 @@ a i:hover {
   footer {
     text-align: left;
   }
+  .button {
+    text-align: left;
+  }
   .footer-container {
     padding: 80px 0;
   }
@@ -170,7 +175,7 @@ a i:hover {
     font-size: large;
     color: #fff;
     /* border-radius: 50px; */
-    margin: 0 0 0 150px;
+    margin: 0 0 0 30px;
     padding: 20px 40px;
   }
   i {
@@ -192,6 +197,6 @@ a i:hover {
     color: #1a1a54;
     width: 400px;
     font-size: 1.4rem;
-    margin-top: 0;
+    margin-top: 10px;
   }
 }
