@@ -1,6 +1,6 @@
 import React from "react";
 import "./schedule.css";
-import Bounce from "react-reveal/Bounce";
+import Fade from "react-reveal/Fade";
 
 // COMPONENTS
 import Focus from "../focus";
@@ -8,13 +8,13 @@ import Focus from "../focus";
 const Schedule = () => {
   return (
     <div className="schedule">
-      <Bounce right duration={3000}>
+      <Fade right duration={3000}>
         <img
           className="vector-one"
           src="/images/sidea.png"
           alt="cogneasy-logo"
         />
-      </Bounce>
+      </Fade>
 
       <div className="register-header">
         <h1 className="speakers-header">
@@ -22,30 +22,30 @@ const Schedule = () => {
         </h1>
         <p className="speakers-text">Schedule and Agenda for Smart Corpers .</p>
       </div>
-      <Bounce left duration={2500}>
+      <Fade left duration={2000}>
         <img
           className="vector-two"
           src="/images/sideb.png"
           alt="cogneasy-logo"
         />
-      </Bounce>
+      </Fade>
       <div className="schedule-body">
         <Focus />
       </div>
-      <Bounce right duration={2500}>
+      <Fade right duration={2000}>
         <img
           className="vector-three"
           src="/images/sidea.png"
           alt="cogneasy-logo"
         />
-      </Bounce>
-      <Bounce left duration={3000}>
+      </Fade>
+      <Fade left duration={3000}>
         <img
           className="vector-four"
           src="/images/sideb.png"
           alt="cogneasy-logo"
         />
-      </Bounce>
+      </Fade>
     </div>
   );
 };

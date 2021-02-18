@@ -59,8 +59,10 @@ const Footer = () => {
     <footer>
       <div class="container footer-container">
         <div className="row">
-          <div className="col-lg-4 col-md-12 col-sm-12 sides">
-            <p className="footer-text">Follow us on Social Media</p>
+          <div className="col-lg-5 col-md-12 col-sm-12 sides">
+            <p className="footer-text footer-texta">
+              Follow us on Social Media
+            </p>
             <div className="icons">
               <a href="#">
                 <i className="fab fa-twitter"></i>
@@ -73,13 +75,13 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="col-lg-8 col-md-12 col-sm-12 sidesr">
+          <div className="col-lg-7 col-md-12 col-sm-12 sidesr">
             <form onSubmit={handleSubmit}>
-              <p className="footer-text">
+              <p className="footer-text footer-textb">
                 Be the first to get notified of updates
               </p>
               <div class="row rower">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-8 col-md-12 col-sm-12">
                   <input
                     type="email"
                     value={address}
@@ -89,7 +91,7 @@ const Footer = () => {
                     required
                   />
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                   <button type="submit" className="btn footer-btn">
                     Subscribe
                   </button>

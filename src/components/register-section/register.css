@@ -94,6 +94,7 @@ textarea::-webkit-input-placeholder {
     padding: 10px;
     font-size: 1.3rem;
     color: #fff;
+    margin: 10px auto 25px;
   }
   textarea {
     width: 100%;
@@ -107,7 +108,7 @@ textarea::-webkit-input-placeholder {
   }
   input::-webkit-input-placeholder,
   textarea::-webkit-input-placeholder {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   label {
     color: #fff;

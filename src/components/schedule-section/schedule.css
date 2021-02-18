@@ -170,6 +170,7 @@ h5 {
     width: 200px;
     height: auto;
     position: absolute;
+    margin-top: -50px;
     left: 0;
     top: 10;
   }
@@ -186,7 +187,7 @@ h5 {
     display: block;
     width: 200px;
     height: auto;
-    margin-top: -160px;
+    margin-top: -170px;
     /* margin-left: -30px; */
     position: absolute;
     left: 0;
