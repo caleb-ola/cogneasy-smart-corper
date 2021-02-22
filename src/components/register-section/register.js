@@ -11,6 +11,7 @@ const Register = () => {
     num: "",
     exp: "",
   });
+
   // const [allUsers, setAllUsers] = useState([]);
 
   const handleFname = (e) => {
@@ -95,6 +96,8 @@ const Register = () => {
         store.addNotification({
           title: "Opps",
           message:
+            error +
+            " " +
             "We are sorry, Something went wrong, please check to ensure your input is neither empty nor incorrect",
           type: "danger",
           insert: "top",
@@ -123,7 +126,9 @@ const Register = () => {
         <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-lg-6 input-field">
-              <label for="fname">First Name</label>
+              <div>
+                <label for="fname">First Name</label>
+              </div>
               <input
                 id="fname"
                 type="text"
@@ -134,7 +139,9 @@ const Register = () => {
               />
             </div>
             <div className="col-lg-6 input-field">
-              <label for="lname">Last Name</label>
+              <div>
+                <label for="lname">Last Name</label>
+              </div>
               <input
                 id="lname"
                 type="text"

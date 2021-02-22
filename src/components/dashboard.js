@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from "react";
 import XLSX from "xlsx";
 import { db } from "../firebase";
+import "./app.css";
 
 const Dashboard = (props) => {
   const [allUsers, setAllUsers] = useState([]);
+  const [content, setContent] = useState();
+  const [showHide, setShowhide] = useState(false);
+  const [button, setButton] = useState("SHOW");
 
   const fetchData = () => {
     db.collection("Corpers")
@@ -22,18 +26,43 @@ const Dashboard = (props) => {
     fetchData();
   }, []);
 
-  const gatherdem = allUsers.map((item, index) => {
-    return (
-      <tr>
-        <td>{index + 1}</td>
-        <td>{item.fname}</td>
-        <td>{item.lname}</td>
-        <td>{item.email}</td>
-        <td>{item.num}</td>
-        <td>{item.exp}</td>
-      </tr>
-    );
-  });
+  const changeContent = () => {
+    if (showHide == true) {
+      setShowhide(false);
+      setButton("HIDE");
+      const gatherdem = allUsers.map((item, index) => {
+        return (
+          <tr>
+            <td>{index + 1}</td>
+            <td>{item.fname}</td>
+            <td>{item.lname}</td>
+            <td>{item.email}</td>
+            <td>{item.num}</td>
+            <td>{item.exp}</td>
+          </tr>
+        );
+      });
+      setContent(
+        <table style={{ width: "100%" }}>
+          <tr>
+            <th>S/N</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Number</th>
+            <th>Expectation</th>
+          </tr>
+          {gatherdem}
+        </table>
+      );
+    } else {
+      setShowhide(true);
+      setButton("SHOW");
+      setContent();
+    }
+  };
+
+  const offContent = () => {};
 
   const exportFile = () => {
     let users = [["FirstName", "LastName", "Email", "Number", "Expectation"]];
@@ -52,28 +81,19 @@ const Dashboard = (props) => {
   return (
     <div>
       <div className="admin-header">
-        <h1>WELCOME ADMIN</h1>
+        <img src="/images/logo.png" />
+
+        <h1 className="dash-header">WELCOME ADMIN</h1>
         <div>
-          <button className="btn btn-primary" onClick={gatherdem}>
-            SHOW REGISTERED PARTICIPANTS
+          <button className="btn dash-btn" onClick={changeContent}>
+            {`${button} REGISTERED PARTICIPANTS`}
           </button>
-          <button className="btn btn-success" onClick={exportFile}>
+          <button className="btn dash-btn2" onClick={exportFile}>
             EXPORT TO EXCEL
           </button>
         </div>
       </div>
-
-      <table style={{ width: "100%" }}>
-        <tr>
-          <th>S/N</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
-          <th>Number</th>
-          <th>Expectation</th>
-        </tr>
-        {allUsers && gatherdem}
-      </table>
+      <div className="table-parent">{content}</div>
     </div>
   );
 };

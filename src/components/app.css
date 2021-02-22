@@ -1,10 +1,83 @@
-.miral {
+.focus.miral {
   text-align: center;
   padding-top: 40px;
+  background-color: #fefbeb;
+  margin-top: 50px;
+  /* height: 1500px; */
 }
-.miral input {
+.miral form input {
+  background-color: #fff !important;
   margin: 15px 0 0px;
+  padding: 4px 8px;
+  margin: 0 5 5 5;
+  border: 1px solid #1a1a54;
 }
-.miral button {
-  margin: 20px 0;
+.miral form input:focus {
+  background-color: #fff !important;
+  margin: 15px 0 0px;
+  padding: 4px 8px;
+  margin: 0 5 5 5;
+  border: 1px solid #1a1a54;
+}
+input:-internal-autofill-selected {
+  background-color: #fff !important;
+}
+.miral .btn {
+  margin: 15px 0 50px;
+}
+.miral img {
+  /* margin: 10px 0; */
+}
+.admin-header {
+  background-color: #fefbeb;
+  text-align: center;
+  padding: 50px 0;
+}
+table {
+  /* border-collapse: collapse; */
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  /* border: 1px solid #ddd; */
+}
+
+/* tr:nth-child(even) {
+  background-color: #f8f6f6;
+} */
+
+tr:hover {
+  background-color: #ddd;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #555;
+  color: white;
+}
+.table-parent {
+  overflow-x: auto;
+}
+.dash-header {
+  color: #555555;
+}
+.dash-btn {
+  background-color: #9b9b9b;
+  color: white;
+}
+.dash-btn:hover {
+  color: #fff;
+  background-color: #555;
+}
+.dash-btn2 {
+  background-color: #9b9b9b;
+  color: white;
+}
+.dash-btn2:hover {
+  color: #fff;
+  background-color: #026e38;
 }
