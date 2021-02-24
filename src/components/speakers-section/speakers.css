@@ -64,14 +64,23 @@
   text-decoration: underline;
   color: #1a1a54;
 }
+.bio-linkage strong {
+  font-size: 0.6rem;
+}
 @media only screen and (min-width: 426px) {
   .card-text {
     font-size: 0.6rem;
     font-weight: 700;
     color: #ff006b;
   }
+  .bio-linkage strong {
+    font-size: 0.8rem;
+  }
 }
 @media only screen and (min-width: 768px) {
+  .bio-linkage strong {
+    font-size: 1rem;
+  }
   .card-text {
     font-size: 0.6rem;
     font-weight: 700;

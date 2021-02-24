@@ -121,16 +121,22 @@
   color: #1a1a54;
 }
 .disguise {
-  height: 310px;
+  height: 340px;
   visibility: visible;
 }
 .redirect {
   text-align: center;
   margin: 10px auto 40px;
 }
-@media only screen and (max-width: 330px) {
+a {
+  color: #fff;
+}
+a:hover {
+  color: #ff006b;
+}
+@media only screen and (max-width: 370px) {
   .disguise {
-    height: 380px;
+    height: 390px;
     visibility: visible;
   }
   .redirect {
@@ -148,7 +154,7 @@
     /* text-align: center; */
   }
   .disguise {
-    height: 280px;
+    height: 310px;
   }
   .redirect {
     text-align: center;

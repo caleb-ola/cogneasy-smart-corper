@@ -10,7 +10,7 @@ const SpeakerDetails = () => {
           <Fade bottom duration={500}>
             <div className="card ">
               <img
-                src="/images/speaker1.png"
+                src="/images/speaker1.jpg"
                 className="card-img-top"
                 alt="Dayo salako, COO, Ennovate Lab"
               />
@@ -25,7 +25,7 @@ const SpeakerDetails = () => {
           <Fade bottom duration={1000}>
             <div className="card ">
               <img
-                src="/images/speaker2.png"
+                src="/images/speaker2.jpg"
                 className="card-img-top"
                 alt="Seun Adepoju, Doctoral Researcher, School of Future Environment, Aukland"
               />
@@ -42,7 +42,7 @@ const SpeakerDetails = () => {
           <Fade bottom duration={1500}>
             <div className="card ">
               <img
-                src="/images/speaker3.png"
+                src="/images/speaker3.jpeg"
                 className="card-img-top"
                 alt="Caleb Dada, Co-founder /Operations Lead Eridan Group"
               />
@@ -59,7 +59,7 @@ const SpeakerDetails = () => {
           <Fade bottom duration={1500}>
             <div className="card ">
               <img
-                src="/images/speaker4.png"
+                src="/images/speaker4.jpg"
                 className="card-img-top"
                 alt="Chima Omike"
               />
@@ -74,12 +74,12 @@ const SpeakerDetails = () => {
           <Fade bottom duration={1000}>
             <div className="card ">
               <img
-                src="/images/speaker5.png"
+                src="/images/speaker5.jpeg"
                 className="card-img-top w-100 h-260"
                 alt="Tumi Oduale, Wife, Mother, Artist, Product Manager and Entrepreneur"
               />
               <div className="card-body">
-                <h5 className="card-title">Tumi Oduale</h5>
+                <h5 className="card-title">Deborah Oduale</h5>
                 <p className="card-text">
                   Wife, Mother, Artist, Product Manager and Entrepreneur
                 </p>
@@ -91,7 +91,7 @@ const SpeakerDetails = () => {
           <Fade bottom duration={500}>
             <div className="card p-0">
               <img
-                src="/images/speaker6.png"
+                src="/images/speaker6.jpg"
                 className="card-image-top w-100 h-260"
                 alt="Jesudamilare Adesegun-David, Co-Founder, Ennovate Lab"
               />
