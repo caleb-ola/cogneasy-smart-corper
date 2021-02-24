@@ -91,6 +91,7 @@ header {
   p {
     font-size: 0.9rem;
     font-weight: 400;
+    /* margin: 5px 0; */
   }
   .logo-mark {
     padding: 10px;

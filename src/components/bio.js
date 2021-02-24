@@ -1,0 +1,501 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./bio.css";
+// import "~slick-carousel/slick/slick.css/";
+// import "~slick-carousel/slick/slick-theme.css/";
+import Slider from "react-slick";
+
+const Bio = () => {
+  const settings = {
+    // dots: true,
+    infinite: true,
+    speed: 100,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+  };
+
+  return (
+    <Slider {...settings}>
+      <div className="main">
+        <div className="row h-100">
+          <div className="col-lg-3 col-md-3 col-sm-12 sideone">
+            <Link to="/#speakers">
+              <i class="fas fa-times-circle"></i>
+            </Link>
+          </div>
+          <div
+            className="col-lg-9 col-md-9 col-sm-12 sidetwo"
+            style={{
+              backgroundImage: `url(/images/speaker1.png)`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <div>
+              <h5 className="sidetwo-header">Speakers' Bio</h5>
+            </div>
+
+            <div className="writeoff">
+              <div className="writeoff-header">
+                <h2>Dayo Salako</h2>
+                <h5>COO, Ennovatelab</h5>
+              </div>
+              <div className="writeoff-content">
+                <p className="writeoff-text">
+                  Dayo Salako is a social entrepreneur who is passionate about
+                  systems creation. She has been working on various
+                  youth-focused community development projects for about a
+                  decade as both programs coordinator and project manager. Dayo
+                  has directly mentored about 15 youths in areas varying from
+                  personal and career development to entrepreneurship. She has
+                  organized empowerment and coaching programs for over 400
+                  youths in the past 5 years.{" "}
+                </p>{" "}
+                <p className="writeoff-text">
+                  Although she had her first degree in a medical science field,
+                  she decided to pursue a career in business administration and
+                  strategic management due to her passion to work with and add
+                  value to people and the economy of her country Nigeria. She
+                  believes she has a great role to play in the future growth and
+                  development of Africa and has chosen to put in all efforts to
+                  ensure this becomes a reality by dedicating her life to
+                  empowering and investing in Africans. Dayo currently works as
+                  an Operations Lead and Business strategist at Ennovate Lab
+                  Ogbomoso, which she believes is a good place to start working
+                  on achieving her vision for Nigeria and Africa at large.
+                  Connect with her on LinkedIn
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="disguise"></div>
+
+          <div className="bio-link redirect">
+            <Link to="/">
+              <div className="bio-linkage">
+                <strong>{"<Back to home"}</strong>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="main">
+        <div className="row h-100">
+          <div className="col-lg-3 col-md-3 col-sm-12 sideone">
+            <Link to="/#speakers">
+              <i class="fas fa-times-circle"></i>
+            </Link>
+          </div>
+          <div
+            className="col-lg-9 col-md-9 col-sm-12 sidetwo"
+            style={{
+              backgroundImage: `url(/images/speaker2.png)`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <div>
+              <h5 className="sidetwo-header">Speakers' Bio</h5>
+            </div>
+            <div className="writeoff">
+              <div className="writeoff-header">
+                <h2>Oluwaseun David Adepoju</h2>
+                <h5>Global Challenges Faculty, ALU, Rwanda</h5>
+              </div>
+              <div className="writeoff-content">
+                <p className="writeoff-text">
+                  Oluwaseun ADEPOJU is a Global Challenges Faculty at the
+                  African Leadership University KIGALI Rwanda. Before joining
+                  the university, he was the manager of TECHmIT Africa, a
+                  Technology and innovation ecosystem advocacy organisation.
+                </p>{" "}
+                <p className="writeoff-text">
+                  As a technology advocate, he was featured in the German
+                  Cooperation MakeIT Africa 2018 report as one of the experts
+                  working in the technology field in Africa. He sits on the
+                  board of many technology startups in Africa with portfolio
+                  structures in Nigeria, Kenya and Rwanda. He is a doctoral
+                  researcher in Creative Technologies at the School of Future
+                  Environment, Auckland University of Technology, New Zealand.
+                  Connect with him on LinkedIn
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="disguise"></div>
+          <div className="bio-link redirect">
+            <Link to="/">
+              <div className="bio-linkage">
+                <strong>{"<Back to home"}</strong>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="main">
+        <div className="row h-100">
+          <div className="col-lg-3 col-md-3 col-sm-12 sideone">
+            <Link to="/#speakers">
+              <i class="fas fa-times-circle"></i>
+            </Link>
+          </div>
+          <div
+            className="col-lg-9 col-md-9 col-sm-12 sidetwo"
+            style={{
+              backgroundImage: `url(/images/speaker3.png)`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <div>
+              <h5 className="sidetwo-header">Speakers' Bio</h5>
+            </div>
+            <div className="writeoff">
+              <div className="writeoff-header">
+                <h2>Caleb Dada</h2>
+                <h5>Co-founder /Operations Lead Eridan Group</h5>
+              </div>
+              <div className="writeoff-content">
+                <p className="writeoff-text">
+                  Mr. Caleb Dada is an exceptional management executive. His
+                  background is in Electrical and Electronics Engineering with
+                  his bachelor’s degree from Nigeria’s Premier University,
+                  University of Ibadan. He is a Lagos business School alumnus,
+                  there he completed a management acceleration course. He is the
+                  founder of Kretivent, an enterprise resource planning agency.
+                  He served as the Human Resource Manager at Lighthouse Group
+                  for 2years before joining Eridan. He's also a Personal Finance
+                  and Investment Coach . He currently has a community called Ava
+                  Finance (Personal Finance and Smart Investment) where he
+                  teaches how to build wealth in the 21st century. Connect with
+                  him on LinkedIn
+                </p>{" "}
+                {/* <p className="writeoff-text">
+                  Although she had her first degree in a medical science field,
+                  she decided to pursue a career in business administration and
+                  strategic management due to her passion to work with and add
+                  value to people and the economy of her country Nigeria. She
+                  believes she has a great role to play in the future growth and
+                  development of Africa and has chosen to put in all efforts to
+                  ensure this becomes a reality by dedicating her life to
+                  empowering and investing in Africans. Dayo currently works as
+                  an Operations Lead and Business strategist at Ennovate Lab
+                  Ogbomoso, which she believes is a good place to start working
+                  on achieving her vision for Nigeria and Africa at large.
+                  Connect with her on LinkedIn
+                </p> */}
+              </div>
+            </div>
+          </div>
+          <div className="disguise"></div>
+          <div className="bio-link redirect">
+            <Link to="/">
+              <div className="bio-linkage">
+                <strong>{"<Back to home"}</strong>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="main">
+        <div className="row h-100">
+          <div className="col-lg-3 col-md-3 col-sm-12 sideone">
+            <Link to="/#speakers">
+              <i class="fas fa-times-circle"></i>
+            </Link>
+          </div>
+          <div
+            className="col-lg-9 col-md-9 col-sm-12 sidetwo"
+            style={{
+              backgroundImage: `url(/images/speaker4.png)`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <div>
+              <h5 className="sidetwo-header">Speakers' Bio</h5>
+            </div>
+            <div className="writeoff">
+              <div className="writeoff-header">
+                <h2>Chima Omike</h2>
+                <h5>Co-founder, Ennovate Lab.</h5>
+              </div>
+              <div className="writeoff-content">
+                <p className="writeoff-text">
+                  Chima is a current MBA candidate at the Fletcher School of Law
+                  and Diplomacy, USA. He graduated from the department of
+                  Electronic Engineering at the University of Nigeria, Nsukka.
+                  Since then, he obtained two MSc. degrees in Advanced
+                  Electronics and Renewable Energy from the Université de
+                  Bourgogne and Université du Havre in France. His professional
+                  background includes over 7 years working for engineering and
+                  IT firms in software, clean energy and manufacturing
+                  industries in Nigeria, Malta and France. He also has
+                  experience in public policy through his work at the European
+                  Commission to advise current EU-Africa collaboration on clean
+                  energy partnerships. Chima co-founded Ennovate Lab and assists
+                  with strategic direction for business operations and
+                  cross-sector partnerships. Connect with him on LinkedIn
+                </p>{" "}
+                {/* <p className="writeoff-text">
+                  Although she had her first degree in a medical science field,
+                  she decided to pursue a career in business administration and
+                  strategic management due to her passion to work with and add
+                  value to people and the economy of her country Nigeria. She
+                  believes she has a great role to play in the future growth and
+                  development of Africa and has chosen to put in all efforts to
+                  ensure this becomes a reality by dedicating her life to
+                  empowering and investing in Africans. Dayo currently works as
+                  an Operations Lead and Business strategist at Ennovate Lab
+                  Ogbomoso, which she believes is a good place to start working
+                  on achieving her vision for Nigeria and Africa at large.
+                  Connect with her on LinkedIn
+                </p> */}
+              </div>
+            </div>
+          </div>
+          <div className="disguise"></div>
+          <div className="bio-link redirect">
+            <Link to="/">
+              <div className="bio-linkage">
+                <strong>{"<Back to home"}</strong>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="main">
+        <div className="row h-100">
+          <div className="col-lg-3 col-md-3 col-sm-12 sideone">
+            <Link to="/#speakers">
+              <i class="fas fa-times-circle"></i>
+            </Link>
+          </div>
+          <div
+            className="col-lg-9 col-md-9 col-sm-12 sidetwo"
+            style={{
+              backgroundImage: `url(/images/speaker5.png)`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <div>
+              <h5 className="sidetwo-header">Speakers' Bio</h5>
+            </div>
+            <div className="writeoff">
+              <div className="writeoff-header">
+                <h2>Mrs Deborah Oduale</h2>
+                <h5>Project Manager</h5>
+              </div>
+              <div className="writeoff-content">
+                <p className="writeoff-text">
+                  A Wife, A Mother, Artist, Project Manager & Entrepreneur Dayo
+                  Salako is a social entrepreneur who is passionate about
+                  systems creation. She has been working on various
+                  youth-focused community development projects for about a
+                  decade as both programs coordinator and project manager. Dayo
+                  has directly mentored about 15 youths in areas varying from
+                  personal and career development to entrepreneurship. She has
+                  organized empowerment and coaching programs for over 400
+                  youths in the past 5 years.{" "}
+                </p>{" "}
+                <p className="writeoff-text">
+                  Although she had her first degree in a medical science field,
+                  she decided to pursue a career in business administration and
+                  strategic management due to her passion to work with and add
+                  value to people and the economy of her country Nigeria. She
+                  believes she has a great role to play in the future growth and
+                  development of Africa and has chosen to put in all efforts to
+                  ensure this becomes a reality by dedicating her life to
+                  empowering and investing in Africans. Dayo currently works as
+                  an Operations Lead and Business strategist at Ennovate Lab
+                  Ogbomoso, which she believes is a good place to start working
+                  on achieving her vision for Nigeria and Africa at large.
+                  Connect with her on LinkedIn
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="disguise"></div>
+          <div className="bio-link redirect">
+            <Link to="/">
+              <div className="bio-linkage">
+                <strong>{"<Back to home"}</strong>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="main">
+        <div className="row h-100">
+          <div className="col-lg-3 col-md-3 col-sm-12 sideone">
+            <Link to="/#speakers">
+              <i class="fas fa-times-circle"></i>
+            </Link>
+          </div>
+          <div
+            className="col-lg-9 col-md-9 col-sm-12 sidetwo"
+            style={{
+              backgroundImage: `url(/images/speaker6.png)`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
+          >
+            <div>
+              <h5 className="sidetwo-header">Speakers' Bio</h5>
+            </div>
+            <div className="writeoff">
+              <div className="writeoff-header">
+                <h2>Jesudamilare Adesegun-David</h2>
+                <h5>Co-founder, Ennovate Lab</h5>
+              </div>
+              <div className="writeoff-content">
+                <p className="writeoff-text">
+                  Dayo Salako is a social entrepreneur who is passionate about
+                  systems creation. She has been working on various
+                  youth-focused community development projects for about a
+                  decade as both programs coordinator and project manager. Dayo
+                  has directly mentored about 15 youths in areas varying from
+                  personal and career development to entrepreneurship. She has
+                  organized empowerment and coaching programs for over 400
+                  youths in the past 5 years.{" "}
+                </p>{" "}
+                <p className="writeoff-text">
+                  Although she had her first degree in a medical science field,
+                  she decided to pursue a career in business administration and
+                  strategic management due to her passion to work with and add
+                  value to people and the economy of her country Nigeria. She
+                  believes she has a great role to play in the future growth and
+                  development of Africa and has chosen to put in all efforts to
+                  ensure this becomes a reality by dedicating her life to
+                  empowering and investing in Africans. Dayo currently works as
+                  an Operations Lead and Business strategist at Ennovate Lab
+                  Ogbomoso, which she believes is a good place to start working
+                  on achieving her vision for Nigeria and Africa at large.
+                  Connect with her on LinkedIn
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="disguise"></div>
+          <div className="bio-link redirect">
+            <Link to="/">
+              <div className="bio-linkage">
+                <strong>{"<Back to home"}</strong>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      {/* <div>
+        <div className="main">
+          <div className="row full-cover">
+            <div className="col-lg-3 col-md-12 col-sm-12 sideone">
+              <i class="fas fa-times-circle"></i>
+            </div>
+            <div
+              className="col-lg-9 col-md-12 col-sm-12 sidetwo"
+              style={{
+                backgroundImage: `url(/images/speaker1.png)`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+            >
+              <div>
+                <h5 className="sidetwo-header">Speakers' Bio</h5>
+              </div>
+            </div>
+            <div className="writeoff">
+              <div className="writeoff-header">
+                <h2>Dayo Salako</h2>
+                <h5>COO, Ennovatelab</h5>
+              </div>
+              <div className="writeoff-content">
+                <p className="writeoff-text">
+                  Dayo Salako is a social entrepreneur who is passionate about
+                  systems creation. She has been working on various
+                  youth-focused community development projects for about a
+                  decade as both programs coordinator and project manager. Dayo
+                  has directly mentored about 15 youths in areas varying from
+                  personal and career development to entrepreneurship. She has
+                  organized empowerment and coaching programs for over 400
+                  youths in the past 5 years.{" "}
+                </p>{" "}
+                <p className="writeoff-text">
+                  Although she had her first degree in a medical science field,
+                  she decided to pursue a career in business administration and
+                  strategic management due to her passion to work with and add
+                  value to people and the economy of her country Nigeria. She
+                  believes she has a great role to play in the future growth and
+                  development of Africa and has chosen to put in all efforts to
+                  ensure this becomes a reality by dedicating her life to
+                  empowering and investing in Africans. Dayo currently works as
+                  an Operations Lead and Business strategist at Ennovate Lab
+                  Ogbomoso, which she believes is a good place to start working
+                  on achieving her vision for Nigeria and Africa at large.
+                  Connect with her on LinkedIn
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+    </Slider>
+  );
+};
+
+export default Bio;
+
+{
+  /* <div className="main">
+      <div className="row full-cover">
+        <div className="col-lg-3 col-md-12 col-sm-12 sideone">
+          <i class="fas fa-times-circle"></i>
+        </div>
+        <div
+          className="col-lg-9 col-md-12 col-sm-12 sidetwo"
+          style={{
+            backgroundImage: `url(/images/speaker3.png)`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
+        >
+          <div>
+            <h5 className="sidetwo-header">Speakers' Bio</h5>
+          </div>
+        </div>
+        <div className="writeoff">
+          <div className="writeoff-header">
+            <h2>Dayo Salako</h2>
+            <h5>COO, Ennovatelab</h5>
+          </div>
+          <div className="writeoff-content">
+            <p className="writeoff-text">
+              Dayo Salako is a social entrepreneur who is passionate about
+              systems creation. She has been working on various youth-focused
+              community development projects for about a decade as both programs
+              coordinator and project manager. Dayo has directly mentored about
+              15 youths in areas varying from personal and career development to
+              entrepreneurship. She has organized empowerment and coaching
+              programs for over 400 youths in the past 5 years.{" "}
+            </p>{" "}
+            <p className="writeoff-text">
+              Although she had her first degree in a medical science field, she
+              decided to pursue a career in business administration and
+              strategic management due to her passion to work with and add value
+              to people and the economy of her country Nigeria. She believes she
+              has a great role to play in the future growth and development of
+              Africa and has chosen to put in all efforts to ensure this becomes
+              a reality by dedicating her life to empowering and investing in
+              Africans. Dayo currently works as an Operations Lead and Business
+              strategist at Ennovate Lab Ogbomoso, which she believes is a good
+              place to start working on achieving her vision for Nigeria and
+              Africa at large. Connect with her on LinkedIn
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> */
+}

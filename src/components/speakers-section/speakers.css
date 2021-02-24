@@ -55,6 +55,15 @@
   width: 100%;
   height: 260px;
 }
+.bio-linkage {
+  text-decoration: underline;
+  color: #ff006b;
+  margin: 20px 0 0;
+}
+.bio-linkage:hover {
+  text-decoration: underline;
+  color: #1a1a54;
+}
 @media only screen and (min-width: 426px) {
   .card-text {
     font-size: 0.6rem;
