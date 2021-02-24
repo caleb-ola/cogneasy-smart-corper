@@ -25,7 +25,7 @@ const SpeakerDetails = () => {
           <Fade bottom duration={1000}>
             <div className="card ">
               <img
-                src="/images/speaker2.jpg"
+                src="/images/speaker2.JPG"
                 className="card-img-top"
                 alt="Seun Adepoju, Doctoral Researcher, School of Future Environment, Aukland"
               />

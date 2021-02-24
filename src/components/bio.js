@@ -94,7 +94,7 @@ const Bio = () => {
           <div
             className="col-lg-9 col-md-9 col-sm-12 sidetwo"
             style={{
-              backgroundImage: `url(/images/speaker2.jpg)`,
+              backgroundImage: `url(/images/speaker2.JPG)`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}

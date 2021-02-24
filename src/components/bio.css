@@ -1,6 +1,8 @@
 .main {
   margin: 0;
   padding: 0;
+  max-width: 100%;
+  width: 100%;
 }
 .full-cover {
   margin: 0;
@@ -165,6 +167,8 @@ a:hover {
   body,
   .main {
     height: 100vh;
+    max-width: 100%;
+    width: 100%;
   }
   .sideone {
     visibility: visible;
@@ -280,6 +284,8 @@ a:hover {
   body,
   .main {
     height: 100vh;
+    max-width: 100%;
+    width: 100%;
   }
   .sideone {
     visibility: visible;
