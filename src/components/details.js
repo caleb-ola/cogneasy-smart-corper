@@ -13,11 +13,11 @@ const Details = (props) => {
         </div>
         <div>
           <p>
-            <small className="focus-speaker">{props.speaker}</small>
+            <p className="focus-text">{props.text}</p>
           </p>
         </div>
         <div>
-          <p className="focus-text">{props.text}</p>
+          <small className="focus-speaker">{props.speaker}</small>
         </div>
       </div>
     </div>

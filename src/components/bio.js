@@ -60,14 +60,17 @@ const Bio = () => {
                   believes she has a great role to play in the future growth and
                   development of Africa and has chosen to put in all efforts to
                   ensure this becomes a reality by dedicating her life to
-                  empowering and investing in Africans. Dayo currently works as
-                  an Operations Lead and Business strategist at Ennovate Lab
-                  Ogbomoso, which she believes is a good place to start working
-                  on achieving her vision for Nigeria and Africa at large.
-                  Connect with her on{" "}
+                  empowering and investing in Africans.{" "}
+                </p>{" "}
+                <p>
+                  Dayo currently works as an Operations Lead and Business
+                  strategist at Ennovate Lab Ogbomoso, which she believes is a
+                  good place to start working on achieving her vision for
+                  Nigeria and Africa at large. Connect with her on{" "}
                   <a href="https://www.linkedin.com/in/temidayosalako/">
                     LinkedIn
                   </a>
+                  {"."}
                 </p>
               </div>
             </div>
@@ -128,6 +131,7 @@ const Bio = () => {
                   <a href="https://www.linkedin.com/in/oluwaseun-david-adepoju-b8168984">
                     LinkedIn
                   </a>
+                  {"."}
                 </p>
               </div>
             </div>
@@ -186,7 +190,8 @@ const Bio = () => {
                   <a href="http://linkedin.com/in/dada-caleb-3b159b68">
                     LinkedIn
                   </a>
-                </p>{" "}
+                </p>
+                {"."}
               </div>
             </div>
           </div>
@@ -246,7 +251,8 @@ const Bio = () => {
                   direction for business operations and cross-sector
                   partnerships. Connect with him on{" "}
                   <a href="https://www.linkedin.com/in/omikechima/">LinkedIn</a>
-                </p>{" "}
+                </p>
+                {"."}
               </div>
             </div>
           </div>
@@ -270,7 +276,7 @@ const Bio = () => {
           <div
             className="col-lg-9 col-md-9 col-sm-12 sidetwo"
             style={{
-              backgroundImage: `url(/images/speaker5.jpeg)`,
+              backgroundImage: `url(/images/speaker5.jpg)`,
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
             }}
@@ -285,11 +291,28 @@ const Bio = () => {
               </div>
               <div className="writeoff-content">
                 <p className="writeoff-text">
-                  A Wife, A Mother, Artist, Project Manager & Entrepreneur
+                  Deborah Oduale is a Project Manager who has worked across 3
+                  leading organisations in the UK: Experian - a FinTech service
+                  provider; National Grid - the UK's Energy transmission
+                  company; and currently with XPS Pensions Group.
+                </p>
+                <p>
+                  She is passionate about her art with abstract and pop art
+                  paintings being her forte. Every piece of painting she does is
+                  aimed at ministering hope. Her YouTube channel Tumi Oduale Art
+                  hosts the Oyinbo Pepper NYSC series, her very hilarious and
+                  informative video diaries documenting her experience during
+                  the service year.
+                </p>
+                <p>
+                  Above all she is a Christian, and lover of God who is keen on
+                  getting more women to love God and experience deep encounters
+                  with him. She lives with her husband and son in the UK.
                   Connect with her on{" "}
                   <a href="https://www.linkedin.com/in/deborah-iyinkanmi-oduale-29312884/">
                     LinkedIn
                   </a>
+                  {"."}
                 </p>{" "}
               </div>
             </div>
@@ -330,37 +353,30 @@ const Bio = () => {
               <div className="writeoff-content">
                 <p className="writeoff-text">
                   Jesudamilare "JD" Adesegun-David is a Thought Alchemist and a
-                  Community Transformation Strategist. He is a promoter of a
-                  Communities-as-Innovation-Hubs approach to positioning Africa
-                  for relevance in a global digital and knowledge economy.{" "}
+                  Community Transformation Strategist. Ennovate Lab, a community
+                  he co-leads, is an Innovation Hub and a Startup Foundry
+                  committed to building resilient innovation ecosystems in
+                  underserved university communities and creating borderless
+                  innovative solutions for communities of all kinds.
                 </p>
-                <p>
-                  Ennovate Lab, a community he co-leads, is an Innovation Hub
-                  and a Startup Foundry committed to building resilient
-                  innovation ecosystems in underserved university communities
-                  and creating borderless innovative solutions for communities
-                  of all kinds.{" "}
-                </p>{" "}
                 <p>
                   Through Cogneasy, a flagship product of the Lab’s Startup
                   Foundry, JD is helping to overturn the productive knowledge
                   deficit of Africa. More than 3000 people, including government
                   officials, professionals and educators, have been equipped
                   with productive thinking skills and strategies since 2018.
-                </p>{" "}
+                </p>
                 <p>
-                  {" "}
                   A graduate of Agronomy in 2011 and a Teach with Africa Fellow
                   (South Africa) in 2015, he has a knack for bridging the
                   seeming divide between diverse disciplines. More recently, he
                   was included in the YNaija New Establishment List for 2019 and
-                  his work has been featured in local and global media.
-                </p>{" "}
-                <p>
-                  Connect with him on{" "}
+                  his work has been featured in local and global media. Connect
+                  with him on{" "}
                   <a href="https://www.linkedin.com/in/jesudamilareadesegundavid/">
                     LinkedIn
                   </a>
+                  {"."}
                 </p>
               </div>
             </div>

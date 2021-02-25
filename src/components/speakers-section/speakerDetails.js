@@ -16,7 +16,7 @@ const SpeakerDetails = () => {
               />
               <div className="card-body">
                 <h5 className="card-title">Dayo Salako</h5>
-                <p className="card-text">COO, Ennovate Lab</p>
+                <p className="card-text">Head of Operations, Ennovate Lab.</p>
               </div>
             </div>
           </Fade>
@@ -32,7 +32,7 @@ const SpeakerDetails = () => {
               <div className="card-body">
                 <h5 className="card-title">Seun Adepoju</h5>
                 <p className="card-text">
-                  Doctoral Researcher, School of Future Environment, Aukland
+                  Doctoral Researcher, School of Future Environment, Aukland.
                 </p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const SpeakerDetails = () => {
               <div className="card-body">
                 <h5 className="card-title">Caleb Dada</h5>
                 <p className="card-text">
-                  Co-founder /Operations Lead Eridan Group
+                  Co-founder/Operations Lead, Eridan Group.
                 </p>{" "}
               </div>
             </div>
@@ -65,7 +65,7 @@ const SpeakerDetails = () => {
               />
               <div className="card-body">
                 <h5 className="card-title">Chima Omike</h5>
-                <p className="card-text">COO, Ennovate Lab</p>
+                <p className="card-text">Co-Founder, Ennovate Lab.</p>
               </div>
             </div>
           </Fade>
@@ -74,14 +74,14 @@ const SpeakerDetails = () => {
           <Fade bottom duration={1000}>
             <div className="card ">
               <img
-                src="/images/speaker5.jpeg"
+                src="/images/speaker5.jpg"
                 className="card-img-top w-100 h-260"
                 alt="Tumi Oduale, Wife, Mother, Artist, Product Manager and Entrepreneur"
               />
               <div className="card-body">
                 <h5 className="card-title">Deborah Oduale</h5>
                 <p className="card-text">
-                  Wife, Mother, Artist, Product Manager and Entrepreneur
+                  Project Manager, XPS Administration.
                 </p>
               </div>
             </div>
@@ -97,7 +97,7 @@ const SpeakerDetails = () => {
               />
               <div className="card-body ">
                 <h5 className="card-title">Jesudamilare Adesegun-David</h5>
-                <p className="card-text">Co-Founder, Ennovate Lab</p>
+                <p className="card-text">Co-Founder, Ennovate Lab.</p>
               </div>
             </div>
           </Fade>

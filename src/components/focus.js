@@ -58,33 +58,25 @@ const Focus = () => {
         <Bounce>
           <Details
             time={"4:00PM - 4:35PM (GMT+1) Venue: Zoom"}
-            topic={"How To Map Out Your Business Idea"}
-            speaker={"CHIMA OMIKE"}
-            //   text={
-            //     "Steps to Understanding Your Purpose, Crafting Your Core Values"
-            //   }
+            topic={"Money Smart"}
+            speaker={"CALEB DADA"}
+            text={"Introduction to Financial Intelligence"}
           />
         </Bounce>
         <Bounce>
           <Details
-            time={"4:40PM-4:5:25PM (GMT+1) Venue: Zoom"}
+            time={"4:40PM-5:25PM (GMT+1) Venue: Zoom"}
             topic={"Turning your Craft to Profit"}
-            speaker={"TUMI ODUALE"}
-            //   text={
-            //     "Steps to Understanding Your Purpose, Crafting Your Core Values"
-            //   }
+            speaker={"DEBORAH ODUALE"}
+            text={"Practical and simple steps to profit from your craft"}
           />
         </Bounce>
         <Bounce>
           <Details
             time={"5:20PM -5:55PM (GMT+1) Venue: Zoom"}
-            topic={
-              " Breaking the Einstein Code: Proven Strategies to Productive Thinking"
-            }
+            topic={" Breaking the Einstein Code"}
             speaker={"JESUDAMILARE ADESEGUN-DAVID"}
-            //   text={
-            //     "Steps to Understanding Your Purpose, Crafting Your Core Values"
-            //   }
+            text={"Proven Strategies to Productive Thinking"}
           />
         </Bounce>
       </div>
@@ -100,12 +92,18 @@ const Focus = () => {
       <div>
         <Bounce>
           <Details
+            time={"4:00PM - 4:35PM (GMT+1)Venue: Zoom"}
+            topic={" Building a Profitable Business"}
+            speaker={"CHIMA OMIKE"}
+            text={"How To Map Out Your Business Idea"}
+          />
+        </Bounce>
+        <Bounce>
+          <Details
             time={" 4:40PM -5:25PM (GMT+1) Venue: Zoom"}
-            topic={"The Gift of Access: Networking for Growth"}
+            topic={"The Most Important Social Capital to Have"}
             speaker={"JESUDAMILARE ADESEGUN-DAVID"}
-            //   text={
-            //     "Steps to Understanding Your Purpose, Crafting Your Core Values"
-            //   }
+            text={"The Gift of Access: Networking for Growth"}
           />
         </Bounce>
       </div>

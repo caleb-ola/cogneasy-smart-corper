@@ -95,6 +95,7 @@
 }
 .sidetwo-header {
   text-align: center;
+  font-size: small;
 }
 .sidetwo div .sidetwo-header {
   background-color: rgba(255, 0, 107, 0.2);
@@ -222,6 +223,7 @@ a:hover {
   .sidetwo-header {
     text-align: center;
     float: right;
+    font-size: larger;
   }
   .sidetwo div .sidetwo-header {
     background-color: rgba(255, 0, 107, 0.2);
@@ -234,8 +236,10 @@ a:hover {
   .writeoff {
     position: absolute;
     background-color: #1a1a54;
-    width: 55%;
-    min-width: 7%;
+    width: 65%;
+    min-width: 65%;
+    /* height: 60vh; */
+    height: auto;
     margin: 5% 0 0 -25%;
     color: #fff;
     padding: 20px 40px;
@@ -272,10 +276,50 @@ a:hover {
     margin: 5px 0;
   }
 }
+@media only screen and (min-width: 890px) {
+  .writeoff {
+    position: absolute;
+    background-color: #1a1a54;
+    width: 65%;
+    min-width: 65%;
+    /* height: 60vh; */
+    height: auto;
+    margin: 6% 0 0 -25%;
+    color: #fff;
+    padding: 20px 40px;
+    /* text-align: l; */
+  }
+}
 @media (min-width: 992px) {
   .col-lg-3 {
     flex: 0 0 auto;
     width: 24%;
+  }
+  .writeoff {
+    position: absolute;
+    background-color: #1a1a54;
+    width: 55%;
+    min-width: 55%;
+    /* height: 60vh; */
+    height: auto;
+    margin: 6% 0 0 -25%;
+    color: #fff;
+    padding: 20px 40px;
+    /* text-align: l; */
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .writeoff {
+    position: absolute;
+    background-color: #1a1a54;
+    width: 45%;
+    min-width: 45%;
+    /* height: 60vh; */
+    height: auto;
+    margin: 6% 0 0 -25%;
+    color: #fff;
+    padding: 20px 40px;
+    /* text-align: l; */
   }
 }
 /*  */
@@ -340,7 +384,7 @@ a:hover {
     background-color: rgba(255, 0, 107, 0.2);
     padding: 20px 10px;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     /* text-align: center; */
     /* margin-left: 80%; */
     width: 25%;
