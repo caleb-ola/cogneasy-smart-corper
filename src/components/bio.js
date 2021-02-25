@@ -39,7 +39,7 @@ const Bio = () => {
             <div className="writeoff">
               <div className="writeoff-header">
                 <h2>Dayo Salako</h2>
-                <h5>Head of Operations, Ennovatelab.</h5>
+                <h5>Head of Operations, Ennovate Lab.</h5>
               </div>
               <div className="writeoff-content">
                 <p className="writeoff-text">

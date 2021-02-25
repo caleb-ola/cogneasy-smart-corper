@@ -81,7 +81,7 @@ const SpeakerDetails = () => {
               <div className="card-body">
                 <h5 className="card-title">Deborah Oduale</h5>
                 <p className="card-text">
-                  Project Manager, XPS Administration.
+                  Project Manager, XPS Pensions Group.
                 </p>
               </div>
             </div>
@@ -97,7 +97,7 @@ const SpeakerDetails = () => {
               />
               <div className="card-body ">
                 <h5 className="card-title">Jesudamilare Adesegun-David</h5>
-                <p className="card-text">Co-Founder, Ennovate Lab.</p>
+                <p className="card-text">Co-founder, Ennovate Lab/Cogneasy.</p>
               </div>
             </div>
           </Fade>
