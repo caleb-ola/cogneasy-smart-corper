@@ -57,7 +57,7 @@ const Focus = () => {
       <div>
         <Bounce>
           <Details
-            time={"4:00PM - 4:35PM (GMT+1) Venue: Zoom"}
+            time={"4:00PM - 4:35PM (GMT+1)"}
             topic={"Money Smart"}
             speaker={"CALEB DADA"}
             text={"Introduction to Financial Intelligence"}
@@ -65,7 +65,7 @@ const Focus = () => {
         </Bounce>
         <Bounce>
           <Details
-            time={"4:40PM - 5:25PM (GMT+1) Venue: Zoom"}
+            time={"4:40PM - 5:25PM (GMT+1)"}
             topic={"Turning your Craft to Profit"}
             speaker={"DEBORAH ODUALE"}
             text={"Practical and simple steps to profit from your craft"}
@@ -73,7 +73,7 @@ const Focus = () => {
         </Bounce>
         <Bounce>
           <Details
-            time={"5:20PM - 5:55PM (GMT+1) Venue: Zoom"}
+            time={"5:20PM - 5:55PM (GMT+1)"}
             topic={" Breaking the Einstein Code"}
             speaker={"JESUDAMILARE ADESEGUN-DAVID"}
             text={"Proven Strategies to Productive Thinking"}
@@ -92,7 +92,7 @@ const Focus = () => {
       <div>
         <Bounce>
           <Details
-            time={"4:00PM - 4:35PM (GMT+1)Venue: Zoom"}
+            time={"4:00PM - 4:35PM (GMT+1)"}
             topic={" Building a Profitable Business"}
             speaker={"CHIMA OMIKE"}
             text={"How To Map Out Your Business Idea"}
@@ -100,7 +100,7 @@ const Focus = () => {
         </Bounce>
         <Bounce>
           <Details
-            time={" 4:40PM - 5:25PM (GMT+1) Venue: Zoom"}
+            time={" 4:40PM - 5:25PM (GMT+1)"}
             topic={"The Most Important Social Capital to Have"}
             speaker={"JESUDAMILARE ADESEGUN-DAVID"}
             text={"The Gift of Access: Networking for Growth"}
