@@ -6,8 +6,8 @@
   background: #fff;
   width: 90%;
   max-width: 90%;
-  height: 510px;
-  max-height: 510px;
+  height: 470px;
+  max-height: 470px;
   box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
   margin: 30px auto;
   padding: 10px 5px;
@@ -84,13 +84,24 @@ h5 {
 .vector-four {
   display: none;
 }
+@media only screen and (min-width: 350px) {
+  .focus {
+    background: #fff;
+    width: 90%;
+    max-width: 90%;
+    height: 420px;
+    max-height: 420px;
+    box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
+    margin: 10px auto;
+  }
+}
 @media only screen and (min-width: 426px) {
   .focus {
     background: #fff;
     width: 70%;
     max-width: 70%;
-    height: 480px;
-    max-height: 480px;
+    height: 430px;
+    max-height: 430px;
     box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
     margin: 10px auto;
   }
@@ -121,13 +132,25 @@ h5 {
     display: none;
   }
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 615px) {
   .focus {
     background: #fff;
     width: 60%;
     max-width: 60%;
     padding: 30px 15px 30px 15px;
     height: 410px;
+    max-height: 410px;
+    box-shadow: 0 4px 8px 0 rgba(204, 204, 204, 0.4);
+    margin: 10px auto;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .focus {
+    background: #fff;
+    width: 60%;
+    max-width: 60%;
+    padding: 30px 15px 30px 15px;
+    height: 400px;
     max-height: 410px;
     box-shadow: 0 4px 8px 0 rgba(204, 204, 204, 0.4);
     margin: 10px auto;
@@ -196,6 +219,19 @@ h5 {
   .details {
     font-size: small;
     padding: 10px 5px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .focus {
+    background: #fff;
+    width: 60%;
+    max-width: 60%;
+    padding: 30px 15px 30px 15px;
+    height: 400px;
+    max-height: 410px;
+    box-shadow: 0 4px 8px 0 rgba(204, 204, 204, 0.4);
+    margin: 10px auto;
   }
 }
 @media only screen and (min-width: 1920px) {

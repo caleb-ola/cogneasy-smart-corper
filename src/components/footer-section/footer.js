@@ -64,13 +64,13 @@ const Footer = () => {
               Follow us on Social Media
             </p>
             <div className="icons">
-              <a href="#">
+              <a href="https://twitter.com/ennovatelab">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#">
+              <a href="https://web.facebook.com/Ennovatelab/">
                 <i className="fab fa-facebook"></i>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/official_ennovatelab/">
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
