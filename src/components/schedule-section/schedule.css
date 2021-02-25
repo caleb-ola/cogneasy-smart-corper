@@ -10,7 +10,7 @@
   max-height: 510px;
   box-shadow: 0 4px 8px 0 rgb(167, 167, 167, 0.4);
   margin: 30px auto;
-  padding: 10px 15px;
+  padding: 10px 5px;
 }
 nav {
   text-align: left;
@@ -106,7 +106,7 @@ h5 {
   }
   .details {
     font-size: small;
-    padding: 5px 40px;
+    padding: 5px 10px;
   }
   .vector-one {
     display: none;

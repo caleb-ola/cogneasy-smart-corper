@@ -65,7 +65,7 @@ const Focus = () => {
         </Bounce>
         <Bounce>
           <Details
-            time={"4:40PM-5:25PM (GMT+1) Venue: Zoom"}
+            time={"4:40PM - 5:25PM (GMT+1) Venue: Zoom"}
             topic={"Turning your Craft to Profit"}
             speaker={"DEBORAH ODUALE"}
             text={"Practical and simple steps to profit from your craft"}
@@ -73,7 +73,7 @@ const Focus = () => {
         </Bounce>
         <Bounce>
           <Details
-            time={"5:20PM -5:55PM (GMT+1) Venue: Zoom"}
+            time={"5:20PM - 5:55PM (GMT+1) Venue: Zoom"}
             topic={" Breaking the Einstein Code"}
             speaker={"JESUDAMILARE ADESEGUN-DAVID"}
             text={"Proven Strategies to Productive Thinking"}
@@ -100,7 +100,7 @@ const Focus = () => {
         </Bounce>
         <Bounce>
           <Details
-            time={" 4:40PM -5:25PM (GMT+1) Venue: Zoom"}
+            time={" 4:40PM - 5:25PM (GMT+1) Venue: Zoom"}
             topic={"The Most Important Social Capital to Have"}
             speaker={"JESUDAMILARE ADESEGUN-DAVID"}
             text={"The Gift of Access: Networking for Growth"}
