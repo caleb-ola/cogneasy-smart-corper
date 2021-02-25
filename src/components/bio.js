@@ -39,7 +39,7 @@ const Bio = () => {
             <div className="writeoff">
               <div className="writeoff-header">
                 <h2>Dayo Salako</h2>
-                <h5>COO, Ennovatelab</h5>
+                <h5>Head of Operations, Ennovatelab.</h5>
               </div>
               <div className="writeoff-content">
                 <p className="writeoff-text">
@@ -108,7 +108,7 @@ const Bio = () => {
             <div className="writeoff">
               <div className="writeoff-header">
                 <h2>Oluwaseun David Adepoju</h2>
-                <h5>Global Challenges Faculty, ALU, Rwanda</h5>
+                <h5>Global Challenges Faculty, ALU, Rwanda.</h5>
               </div>
               <div className="writeoff-content">
                 <p className="writeoff-text">
@@ -167,7 +167,7 @@ const Bio = () => {
             <div className="writeoff">
               <div className="writeoff-header">
                 <h2>Caleb Dada</h2>
-                <h5>Co-founder /Operations Lead Eridan Group</h5>
+                <h5>Co-founder /Operations Lead Eridan Group.</h5>
               </div>
               <div className="writeoff-content">
                 <p className="writeoff-text">
@@ -190,8 +190,8 @@ const Bio = () => {
                   <a href="http://linkedin.com/in/dada-caleb-3b159b68">
                     LinkedIn
                   </a>
+                  {"."}
                 </p>
-                {"."}
               </div>
             </div>
           </div>
@@ -251,8 +251,8 @@ const Bio = () => {
                   direction for business operations and cross-sector
                   partnerships. Connect with him on{" "}
                   <a href="https://www.linkedin.com/in/omikechima/">LinkedIn</a>
+                  {"."}
                 </p>
-                {"."}
               </div>
             </div>
           </div>
@@ -287,7 +287,7 @@ const Bio = () => {
             <div className="writeoff">
               <div className="writeoff-header">
                 <h2>Deborah Oduale</h2>
-                <h5>Project Manager</h5>
+                <h5>Project Manager, XPS Pensions Group.</h5>
               </div>
               <div className="writeoff-content">
                 <p className="writeoff-text">
@@ -348,7 +348,7 @@ const Bio = () => {
             <div className="writeoff">
               <div className="writeoff-header">
                 <h2>Jesudamilare Adesegun-David</h2>
-                <h5>Co-founder, Ennovate Lab</h5>
+                <h5>Co-founder, Ennovate Lab/Cogneasy.</h5>
               </div>
               <div className="writeoff-content">
                 <p className="writeoff-text">
