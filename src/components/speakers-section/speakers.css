@@ -19,8 +19,8 @@
 .speakers-text {
   color: #060606;
   margin-bottom: 35px;
-  width: 55%;
-  max-width: 55%;
+  width: 80%;
+  max-width: 80%;
   margin: 0 auto 35px;
 }
 .all-speakers {
@@ -75,6 +75,13 @@
   }
   .bio-linkage strong {
     font-size: 0.8rem;
+  }
+  .speakers-text {
+    color: #060606;
+    margin-bottom: 35px;
+    width: 75%;
+    max-width: 75%;
+    margin: 0 auto 35px;
   }
 }
 @media only screen and (min-width: 768px) {

@@ -71,6 +71,10 @@ textarea::-webkit-input-placeholder {
 /* .register-header {
   font-size: 2rem;
 } */
+.register-btn {
+  margin: 5px 0 0 0;
+  width: 100%;
+}
 @media only screen and (min-width: 426px) {
   input,
   textarea {
@@ -84,7 +88,7 @@ textarea::-webkit-input-placeholder {
     height: 45px;
   }
   textarea {
-    width: 95%;
+    width: 90%;
     height: 120px;
     margin-top: 20px;
   }
@@ -92,14 +96,37 @@ textarea::-webkit-input-placeholder {
     margin: 0 auto;
   }
   .register-btn {
-    margin-top: 5px;
+    margin: 5px 0 0 0;
+    width: 100%;
+  }
+  .submit-button {
+    text-align: right;
+    padding: 0 10% 0 0;
+  }
+  .register-header {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 728px) {
+  textarea {
+    width: 90%;
+  }
+  .register-btn {
+    margin: 5px 0 0 0;
+    width: auto;
+  }
+}
+@media only screen and (min-width: 990px) {
+  textarea {
+    width: 95%;
   }
   .submit-button {
     text-align: right;
     padding: 0 5% 0 0;
   }
-  .register-header {
-    font-size: 1.8rem;
+  .register-btn {
+    margin: 5px 0 0 0;
+    width: auto;
   }
 }
 @media only screen and (min-width: 1920px) {
