@@ -90,7 +90,7 @@
   /* background-image: url("./images/speaker1.png"); */
   background-size: cover;
   padding: 40px;
-  text-align: center;
+  text-align: right;
   color: #fff;
 }
 .sidetwo-header {
@@ -105,6 +105,7 @@
   /* margin-left: 80%; */
   width: 38%;
   margin: 0 auto;
+  visibility: hidden;
 }
 /* .writeoff {
   position: absolute;
@@ -146,6 +147,16 @@ a:hover {
     text-align: center;
     margin: 10px auto 40px;
   }
+  .sidetwo div .sidetwo-header {
+    background-color: rgba(255, 0, 107, 0.2);
+    padding: 20px 10px;
+    position: relative;
+    /* text-align: center; */
+    /* margin-left: 80%; */
+    width: 38%;
+    margin: 0 auto;
+    visibility: hidden;
+  }
 }
 @media only screen and (min-width: 425px) {
   .writeoff {
@@ -162,6 +173,16 @@ a:hover {
   .redirect {
     text-align: center;
     margin: 0 auto 40px;
+  }
+  .sidetwo div .sidetwo-header {
+    background-color: rgba(255, 0, 107, 0.2);
+    padding: 20px 10px;
+    position: relative;
+    /* text-align: center; */
+    /* margin-left: 80%; */
+    width: 38%;
+    margin: 0 auto;
+    visibility: hidden;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -232,6 +253,7 @@ a:hover {
     /* text-align: center; */
     /* margin-left: 80%; */
     width: 25%;
+    visibility: visible;
   }
   .writeoff {
     position: absolute;
