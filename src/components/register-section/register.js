@@ -183,7 +183,7 @@ const Register = () => {
               </label>
               <textarea
                 id="exp"
-                placeholder="type what you expect from Smart Corpers"
+                placeholder="Type what you expect from Smart Corpers"
                 value={user.exp}
                 onChange={handleExp}
                 required

@@ -8,7 +8,7 @@ import Focus from "../focus";
 const Schedule = () => {
   return (
     <div className="schedule">
-      <Fade right duration={3000}>
+      <Fade right duration={300}>
         <img
           className="vector-one"
           src="/images/sidea.png"
@@ -22,7 +22,7 @@ const Schedule = () => {
         </h1>
         <p className="speakers-text">Schedule and Agenda for Smart Corpers .</p>
       </div>
-      <Fade left duration={2000}>
+      <Fade left duration={500}>
         <img
           className="vector-two"
           src="/images/sideb.png"
@@ -32,14 +32,14 @@ const Schedule = () => {
       <div className="schedule-body">
         <Focus />
       </div>
-      <Fade right duration={2000}>
+      <Fade right duration={700}>
         <img
           className="vector-three"
           src="/images/sidea.png"
           alt="cogneasy-logo"
         />
       </Fade>
-      <Fade left duration={3000}>
+      <Fade left duration={900}>
         <img
           className="vector-four"
           src="/images/sideb.png"

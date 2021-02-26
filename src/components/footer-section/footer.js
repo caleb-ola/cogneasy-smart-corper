@@ -86,7 +86,7 @@ const Footer = () => {
                     type="email"
                     value={address}
                     onChange={takeInput}
-                    placeholder="your e-mail address"
+                    placeholder="Your e-mail address"
                     className="subscribe-input"
                     required
                   />

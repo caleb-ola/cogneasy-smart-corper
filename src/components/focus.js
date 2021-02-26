@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./schedule-section/schedule.css";
 import Details from "./details";
-import Bounce from "react-reveal/Bounce";
+// import Bounce from "react-reveal/Bounce";
 
 const Focus = () => {
   const [detail, setDetail] = useState();
@@ -19,26 +19,26 @@ const Focus = () => {
     });
     setDetail(
       <div>
-        <Bounce>
-          <Details
-            time={"4PM - 4:45PM (GMT+1)"}
-            topic={"Discover Your Why"}
-            speaker={"DAYO SALAKO"}
-            text={
-              "Steps to Understanding Your Purpose, Crafting Your Core Values"
-            }
-          />
-          <Details
-            time={"5PM - 5:45 PM (GMT+1)"}
-            topic={
-              "From Novice to C-Suite: Strategies to building a great career"
-            }
-            speaker={"SEUN ADEPOJU"}
-            text={
-              "Communicate like a Genius Become the Recruiter's Favourite Ace Your Job Interview"
-            }
-          />
-        </Bounce>
+        {/* <Bounce> */}
+        <Details
+          time={"4PM - 4:45PM (GMT+1)"}
+          topic={"Discover Your Why"}
+          speaker={"DAYO SALAKO"}
+          text={
+            "Steps to Understanding Your Purpose, Crafting Your Core Values"
+          }
+        />
+        <Details
+          time={"5PM - 5:45 PM (GMT+1)"}
+          topic={
+            "From Novice to C-Suite: Strategies to building a great career"
+          }
+          speaker={"SEUN ADEPOJU"}
+          text={
+            "Communicate like a Genius Become the Recruiter's Favourite Ace Your Job Interview"
+          }
+        />
+        {/* </Bounce> */}
       </div>
     );
   };
@@ -55,30 +55,30 @@ const Focus = () => {
 
     setDetail(
       <div>
-        <Bounce>
-          <Details
-            time={"4:00PM - 4:35PM (GMT+1)"}
-            topic={"Money Smart"}
-            speaker={"CALEB DADA"}
-            text={"Introduction to Financial Intelligence"}
-          />
-        </Bounce>
-        <Bounce>
-          <Details
-            time={"4:40PM - 5:25PM (GMT+1)"}
-            topic={"Turning your Craft to Profit"}
-            speaker={"DEBORAH ODUALE"}
-            text={"Practical and simple steps to profit from your craft"}
-          />
-        </Bounce>
-        <Bounce>
-          <Details
-            time={"5:20PM - 5:55PM (GMT+1)"}
-            topic={" Breaking the Einstein Code"}
-            speaker={"JESUDAMILARE ADESEGUN-DAVID"}
-            text={"Proven Strategies to Productive Thinking"}
-          />
-        </Bounce>
+        {/* <Bounce> */}
+        <Details
+          time={"4:00PM - 4:35PM (GMT+1)"}
+          topic={"Money Smart"}
+          speaker={"CALEB DADA"}
+          text={"Introduction to Financial Intelligence"}
+        />
+        {/* </Bounce> */}
+        {/* <Bounce> */}
+        <Details
+          time={"4:40PM - 5:25PM (GMT+1)"}
+          topic={"Turning your Craft to Profit"}
+          speaker={"DEBORAH ODUALE"}
+          text={"Practical and simple steps to profit from your craft"}
+        />
+        {/* </Bounce> */}
+        {/* <Bounce> */}
+        <Details
+          time={"5:20PM - 5:55PM (GMT+1)"}
+          topic={" Breaking the Einstein Code"}
+          speaker={"JESUDAMILARE ADESEGUN-DAVID"}
+          text={"Proven Strategies to Productive Thinking"}
+        />
+        {/* </Bounce> */}
       </div>
     );
   };
@@ -90,22 +90,22 @@ const Focus = () => {
     });
     setDetail(
       <div>
-        <Bounce>
-          <Details
-            time={"4:00PM - 4:35PM (GMT+1)"}
-            topic={" Building a Profitable Business"}
-            speaker={"CHIMA OMIKE"}
-            text={"How To Map Out Your Business Idea"}
-          />
-        </Bounce>
-        <Bounce>
-          <Details
-            time={" 4:40PM - 5:25PM (GMT+1)"}
-            topic={"The Most Important Social Capital to Have"}
-            speaker={"JESUDAMILARE ADESEGUN-DAVID"}
-            text={"The Gift of Access: Networking for Growth"}
-          />
-        </Bounce>
+        {/* <Bounce> */}
+        <Details
+          time={"4:00PM - 4:35PM (GMT+1)"}
+          topic={" Building a Profitable Business"}
+          speaker={"CHIMA OMIKE"}
+          text={"How To Map Out Your Business Idea"}
+        />
+        {/* </Bounce> */}
+        {/* <Bounce> */}
+        <Details
+          time={" 4:40PM - 5:25PM (GMT+1)"}
+          topic={"The Most Important Social Capital to Have"}
+          speaker={"JESUDAMILARE ADESEGUN-DAVID"}
+          text={"The Gift of Access: Networking for Growth"}
+        />
+        {/* </Bounce> */}
       </div>
     );
   };
